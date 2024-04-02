@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 1517191882}
   m_Layer: 0
   m_Name: Pokebola
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -713,6 +713,10 @@ MonoBehaviour:
   selectedObject: {fileID: 1517191881}
   velocity: 4
   rgb: {fileID: 1517191882}
+  mylayer:
+    serializedVersion: 2
+    m_Bits: 0
+  timer: 0
 --- !u!4 &2010489116
 Transform:
   m_ObjectHideFlags: 0
